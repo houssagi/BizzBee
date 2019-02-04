@@ -15,11 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
-        <FrameLayout
-            android:id="@+id/content_frame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
         <LinearLayout
             android:id="@+id/content"
             android:layout_width="fill_parent"
@@ -80,6 +75,4 @@
 
         </LinearLayout>
     </ScrollView>
-
-    <!-- Footer aligned to bottom -->
 </LinearLayout>
